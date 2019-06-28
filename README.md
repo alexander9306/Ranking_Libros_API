@@ -4,11 +4,10 @@
 -  Crear libros con sus correspondientes campos
 -  Easy-to-use
 -  Arquitectura MVC  
--  Los usuarios pueden calificar los libros con votaciones (+1, -1)
+-  Los usuarios pueden calificar los libros con votaciones unicamente (+1, -1)
 -  Facil de modificar y mantener
 
 **Esta Api retorna archivos Json** 
- 
  
  
     Dependencias 
@@ -24,7 +23,11 @@
     bash
         git clone https://github.com/alexander9306/Ranking_Libros_API
         cd Ranking_Libros_API
+        cd Seeds
+        mongoimpoirt --db booksRankingdb--collection team --file books.json
+        cd ..
         npm run start
+        
 
  
  ## Endpoints
