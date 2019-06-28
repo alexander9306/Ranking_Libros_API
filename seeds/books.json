@@ -1,0 +1,21 @@
+{
+    "titulo": "Precálculo",
+    "autor": "Steward",
+    "fechaPublicacion": "2017-5-20",
+    "descripcion": "Matemáticas para el cálculo",
+    "votos":"5"
+}
+{
+    "titulo": "Introducción a las Ciencias Sociales",
+    "autor": "José Pedro Cortés",
+    "fechaPublicacion": "2016-6-26 ",
+    "descripcion": "Primer Semestre Introducción a las Ciencias Sociales",
+    "votos":"3"
+}
+{
+    "titulo": "Algebra (Baldor)",
+    "autor": "Aurelio Baldor",
+    "fechaPublicacion": "1941-1-15",
+    "descripcion": "Libro de Matemáticas",
+    "votos":"4"
+}
