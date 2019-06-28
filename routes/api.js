@@ -8,7 +8,7 @@ const controllers = require('../controllers')
 router.get('/:resource', (req, res) => {
     const resource = req.params.resource
     const controller = controllers[resource]
-    const filters = req.query
+    const filters = req.query // query para filtrar los datos 
 
     if (controller == null) {
         res.json({
