@@ -34,8 +34,8 @@
 | GET            | 'api/libros' - devuelve todos los libros en la base de datos 
 | GET            | 'api/libros/ultimos' - devuelve todos los libros en la base de datos organizados por fecha de publicacion
 | GET            | 'api/libros/ID' - devuelve la informacion del libro por su I
-| DELETE         | '/api/libros/<id goes here>' - Elimina la informacion del libro
-| PUT            | '/api/libros/<ID>' - Actualiza el libro
+| DELETE         | '/api/libros/ID' - Elimina la informacion del libro
+| PUT            | '/api/libros/ID' - Actualiza el libro
 | POST           | '/api/libros/' - Crear un libro
   
 
