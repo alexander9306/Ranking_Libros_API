@@ -5,6 +5,7 @@
 -  Easy-to-use
 -  Arquitectura MVC  
 -  Los usuarios pueden calificar los libros con votaciones unicamente (+1, -1)
+-  La informacion se puede filtrar con el uso de Queries
 -  Facil de modificar y mantener
 
 **Esta Api retorna archivos Json** 
@@ -36,10 +37,10 @@
 |--------------- |---------------------|
 | GET            | 'api/libros' - devuelve todos los libros en la base de datos 
 | GET            | 'api/libros/ultimos' - devuelve todos los libros en la base de datos organizados por fecha de publicacion
-| GET            | 'api/libros/<id>' - devuelve la informacion del libro por su I
-| GET            | 'api/libros?<data query>' - Filtra los resultados de acuerdo al query por ejemplo 'autor=Aurelio Baldor'
-| DELETE         | '/api/libros/<id>' - Elimina la informacion del libro
-| PUT            | '/api/libros/<id>' - Actualiza el libro
+| GET            | 'api/libros/`id`' - devuelve la informacion del libro por su Id
+| GET            | 'api/libros?`data query`' - Filtra los resultados de acuerdo al query por ejemplo 'autor=Aurelio Baldor'
+| DELETE         | '/api/libros/`id`' - Elimina la informacion del libro
+| PUT            | '/api/libros/`id`' - Actualiza el libro
 | POST           | '/api/libros/' - Crear un libro
   
 
