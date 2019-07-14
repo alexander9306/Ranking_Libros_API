@@ -4,7 +4,7 @@ const controllers = require('../controllers')
 
 //ENDPOINTS
 
-//Para obtener todos los datos de la base de datos
+//Get: api/libros
 router.get('/:resource', (req, res) => {
     const resource = req.params.resource
     const controller = controllers[resource]
@@ -46,8 +46,8 @@ router.get('/:resource/:id', (req, res) => {
             message: 'Invalid Resource'
         })
         return
-    }
-    if (id == 'ultimos') { //Aqui se utiliza el controlador getSortByDate para traer los ultimos datos de la base de datos
+    }   //Get: api/libros/ultimos
+    if (id == 'ultimos') { 
         controller.getSortByDate()
             .then(data => {
                 res.json({
